@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AD3AFDC31A9F7DC800C387B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDC21A9F7DC800C387B7 /* AppDelegate.swift */; };
-		AD3AFDC51A9F7DC800C387B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDC41A9F7DC800C387B7 /* ViewController.swift */; };
+		AD3AFDC51A9F7DC800C387B7 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDC41A9F7DC800C387B7 /* OTPViewController.swift */; };
 		AD3AFDC81A9F7DC800C387B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDC61A9F7DC800C387B7 /* Main.storyboard */; };
 		AD3AFDCA1A9F7DC800C387B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */; };
 		AD3AFDCD1A9F7DC800C387B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDCB1A9F7DC800C387B7 /* LaunchScreen.xib */; };
 		AD3AFDD91A9F7DC900C387B7 /* One_Trick_PicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDD81A9F7DC900C387B7 /* One_Trick_PicTests.swift */; };
+		AD3AFDE31A9F7E4000C387B7 /* OTPImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		AD3AFDBD1A9F7DC800C387B7 /* One Trick Pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Trick Pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3AFDC11A9F7DC800C387B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3AFDC21A9F7DC800C387B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD3AFDC41A9F7DC800C387B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3AFDC41A9F7DC800C387B7 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		AD3AFDC71A9F7DC800C387B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD3AFDCC1A9F7DC800C387B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AD3AFDD21A9F7DC900C387B7 /* One Trick PicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Trick PicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3AFDD71A9F7DC900C387B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3AFDD81A9F7DC900C387B7 /* One_Trick_PicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Trick_PicTests.swift; sourceTree = "<group>"; };
+		AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				AD3AFDC21A9F7DC800C387B7 /* AppDelegate.swift */,
-				AD3AFDC41A9F7DC800C387B7 /* ViewController.swift */,
+				AD3AFDC41A9F7DC800C387B7 /* OTPViewController.swift */,
+				AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */,
 				AD3AFDC61A9F7DC800C387B7 /* Main.storyboard */,
 				AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */,
 				AD3AFDCB1A9F7DC800C387B7 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3AFDC51A9F7DC800C387B7 /* ViewController.swift in Sources */,
+				AD3AFDC51A9F7DC800C387B7 /* OTPViewController.swift in Sources */,
 				AD3AFDC31A9F7DC800C387B7 /* AppDelegate.swift in Sources */,
+				AD3AFDE31A9F7E4000C387B7 /* OTPImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

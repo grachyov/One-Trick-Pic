@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OTPViewController.swift
 //  One Trick Pic
 //
 //  Created by Ivan Grachev on 26/02/15.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OTPViewController: UIViewController {
 
+    let imageManager = OTPImageManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func copyAndDeleteButtonPressed(sender: AnyObject) {
+        imageManager.copyAndDeleteLastImage()
     }
-
-
 }
 
