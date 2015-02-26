@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import OneTrickPicKit
 
 class OTPViewController: UIViewController {
 
-    let imageManager = OTPImageManager()
+    let imageManager = OTPPhotosManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()

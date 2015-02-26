@@ -13,7 +13,16 @@
 		AD3AFDCA1A9F7DC800C387B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */; };
 		AD3AFDCD1A9F7DC800C387B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDCB1A9F7DC800C387B7 /* LaunchScreen.xib */; };
 		AD3AFDD91A9F7DC900C387B7 /* One_Trick_PicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDD81A9F7DC900C387B7 /* One_Trick_PicTests.swift */; };
-		AD3AFDE31A9F7E4000C387B7 /* OTPImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */; };
+		AD7E29531A9FBE6D00D691D5 /* OneTrickPicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7E29521A9FBE6D00D691D5 /* OneTrickPicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7E29591A9FBE6D00D691D5 /* OneTrickPicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; };
+		AD7E29621A9FBE6D00D691D5 /* OneTrickPicKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E29611A9FBE6D00D691D5 /* OneTrickPicKitTests.swift */; };
+		AD7E29651A9FBE6D00D691D5 /* OneTrickPicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; };
+		AD7E29661A9FBE6D00D691D5 /* OneTrickPicKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD7E29701A9FC17500D691D5 /* OTPPhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E296F1A9FC17500D691D5 /* OTPPhotosManager.swift */; };
+		ADCCBE681A9FB6C70013C5E8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCCBE671A9FB6C70013C5E8 /* NotificationCenter.framework */; };
+		ADCCBE6D1A9FB6C70013C5E8 /* OTPTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCBE6C1A9FB6C70013C5E8 /* OTPTodayViewController.swift */; };
+		ADCCBE6F1A9FB6C70013C5E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCCBE6E1A9FB6C70013C5E8 /* MainInterface.storyboard */; };
+		ADCCBE721A9FB6C70013C5E8 /* One Trick Pic Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ADCCBE651A9FB6C70013C5E8 /* One Trick Pic Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,60 @@
 			remoteGlobalIDString = AD3AFDBC1A9F7DC800C387B7;
 			remoteInfo = "One Trick Pic";
 		};
+		AD7E295A1A9FBE6D00D691D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3AFDB51A9F7DC800C387B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7E294D1A9FBE6D00D691D5;
+			remoteInfo = OneTrickPicKit;
+		};
+		AD7E295C1A9FBE6D00D691D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3AFDB51A9F7DC800C387B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3AFDBC1A9F7DC800C387B7;
+			remoteInfo = "One Trick Pic";
+		};
+		AD7E29631A9FBE6D00D691D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3AFDB51A9F7DC800C387B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7E294D1A9FBE6D00D691D5;
+			remoteInfo = OneTrickPicKit;
+		};
+		ADCCBE701A9FB6C70013C5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3AFDB51A9F7DC800C387B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCCBE641A9FB6C70013C5E8;
+			remoteInfo = "One Trick Pic Widget";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD7E296C1A9FBE6D00D691D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD7E29661A9FBE6D00D691D5 /* OneTrickPicKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCCBE761A9FB6C80013C5E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ADCCBE721A9FB6C70013C5E8 /* One Trick Pic Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD3AFDBD1A9F7DC800C387B7 /* One Trick Pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Trick Pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +99,18 @@
 		AD3AFDD21A9F7DC900C387B7 /* One Trick PicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Trick PicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3AFDD71A9F7DC900C387B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3AFDD81A9F7DC900C387B7 /* One_Trick_PicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Trick_PicTests.swift; sourceTree = "<group>"; };
-		AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPImageManager.swift; sourceTree = "<group>"; };
+		AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneTrickPicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E29511A9FBE6D00D691D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E29521A9FBE6D00D691D5 /* OneTrickPicKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneTrickPicKit.h; sourceTree = "<group>"; };
+		AD7E29581A9FBE6D00D691D5 /* OneTrickPicKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTrickPicKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E29601A9FBE6D00D691D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E29611A9FBE6D00D691D5 /* OneTrickPicKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTrickPicKitTests.swift; sourceTree = "<group>"; };
+		AD7E296F1A9FC17500D691D5 /* OTPPhotosManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPhotosManager.swift; sourceTree = "<group>"; };
+		ADCCBE651A9FB6C70013C5E8 /* One Trick Pic Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "One Trick Pic Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCCBE671A9FB6C70013C5E8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		ADCCBE6B1A9FB6C70013C5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCCBE6C1A9FB6C70013C5E8 /* OTPTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTodayViewController.swift; sourceTree = "<group>"; };
+		ADCCBE6E1A9FB6C70013C5E8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7E29651A9FBE6D00D691D5 /* OneTrickPicKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +129,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7E294A1A9FBE6D00D691D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E29551A9FBE6D00D691D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E29591A9FBE6D00D691D5 /* OneTrickPicKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCCBE621A9FB6C70013C5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCCBE681A9FB6C70013C5E8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,7 +159,11 @@
 			isa = PBXGroup;
 			children = (
 				AD3AFDBF1A9F7DC800C387B7 /* One Trick Pic */,
+				ADCCBE691A9FB6C70013C5E8 /* One Trick Pic Widget */,
+				AD7E294F1A9FBE6D00D691D5 /* OneTrickPicKit */,
 				AD3AFDD51A9F7DC900C387B7 /* One Trick PicTests */,
+				AD7E295E1A9FBE6D00D691D5 /* OneTrickPicKitTests */,
+				ADCCBE661A9FB6C70013C5E8 /* Frameworks */,
 				AD3AFDBE1A9F7DC800C387B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +173,9 @@
 			children = (
 				AD3AFDBD1A9F7DC800C387B7 /* One Trick Pic.app */,
 				AD3AFDD21A9F7DC900C387B7 /* One Trick PicTests.xctest */,
+				ADCCBE651A9FB6C70013C5E8 /* One Trick Pic Widget.appex */,
+				AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */,
+				AD7E29581A9FBE6D00D691D5 /* OneTrickPicKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +185,6 @@
 			children = (
 				AD3AFDC21A9F7DC800C387B7 /* AppDelegate.swift */,
 				AD3AFDC41A9F7DC800C387B7 /* OTPViewController.swift */,
-				AD3AFDE21A9F7E4000C387B7 /* OTPImageManager.swift */,
 				AD3AFDC61A9F7DC800C387B7 /* Main.storyboard */,
 				AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */,
 				AD3AFDCB1A9F7DC800C387B7 /* LaunchScreen.xib */,
@@ -115,7 +218,79 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AD7E294F1A9FBE6D00D691D5 /* OneTrickPicKit */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E296F1A9FC17500D691D5 /* OTPPhotosManager.swift */,
+				AD7E29521A9FBE6D00D691D5 /* OneTrickPicKit.h */,
+				AD7E29501A9FBE6D00D691D5 /* Supporting Files */,
+			);
+			path = OneTrickPicKit;
+			sourceTree = "<group>";
+		};
+		AD7E29501A9FBE6D00D691D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E29511A9FBE6D00D691D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD7E295E1A9FBE6D00D691D5 /* OneTrickPicKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E29611A9FBE6D00D691D5 /* OneTrickPicKitTests.swift */,
+				AD7E295F1A9FBE6D00D691D5 /* Supporting Files */,
+			);
+			path = OneTrickPicKitTests;
+			sourceTree = "<group>";
+		};
+		AD7E295F1A9FBE6D00D691D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E29601A9FBE6D00D691D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADCCBE661A9FB6C70013C5E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCBE671A9FB6C70013C5E8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADCCBE691A9FB6C70013C5E8 /* One Trick Pic Widget */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCBE6C1A9FB6C70013C5E8 /* OTPTodayViewController.swift */,
+				ADCCBE6E1A9FB6C70013C5E8 /* MainInterface.storyboard */,
+				ADCCBE6A1A9FB6C70013C5E8 /* Supporting Files */,
+			);
+			path = "One Trick Pic Widget";
+			sourceTree = "<group>";
+		};
+		ADCCBE6A1A9FB6C70013C5E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCBE6B1A9FB6C70013C5E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD7E294B1A9FBE6D00D691D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E29531A9FBE6D00D691D5 /* OneTrickPicKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AD3AFDBC1A9F7DC800C387B7 /* One Trick Pic */ = {
@@ -125,10 +300,14 @@
 				AD3AFDB91A9F7DC800C387B7 /* Sources */,
 				AD3AFDBA1A9F7DC800C387B7 /* Frameworks */,
 				AD3AFDBB1A9F7DC800C387B7 /* Resources */,
+				ADCCBE761A9FB6C80013C5E8 /* Embed App Extensions */,
+				AD7E296C1A9FBE6D00D691D5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADCCBE711A9FB6C70013C5E8 /* PBXTargetDependency */,
+				AD7E29641A9FBE6D00D691D5 /* PBXTargetDependency */,
 			);
 			name = "One Trick Pic";
 			productName = "One Trick Pic";
@@ -153,6 +332,60 @@
 			productReference = AD3AFDD21A9F7DC900C387B7 /* One Trick PicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AD7E294D1A9FBE6D00D691D5 /* OneTrickPicKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7E296B1A9FBE6D00D691D5 /* Build configuration list for PBXNativeTarget "OneTrickPicKit" */;
+			buildPhases = (
+				AD7E29491A9FBE6D00D691D5 /* Sources */,
+				AD7E294A1A9FBE6D00D691D5 /* Frameworks */,
+				AD7E294B1A9FBE6D00D691D5 /* Headers */,
+				AD7E294C1A9FBE6D00D691D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneTrickPicKit;
+			productName = OneTrickPicKit;
+			productReference = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD7E29571A9FBE6D00D691D5 /* OneTrickPicKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7E296D1A9FBE6D00D691D5 /* Build configuration list for PBXNativeTarget "OneTrickPicKitTests" */;
+			buildPhases = (
+				AD7E29541A9FBE6D00D691D5 /* Sources */,
+				AD7E29551A9FBE6D00D691D5 /* Frameworks */,
+				AD7E29561A9FBE6D00D691D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7E295B1A9FBE6D00D691D5 /* PBXTargetDependency */,
+				AD7E295D1A9FBE6D00D691D5 /* PBXTargetDependency */,
+			);
+			name = OneTrickPicKitTests;
+			productName = OneTrickPicKitTests;
+			productReference = AD7E29581A9FBE6D00D691D5 /* OneTrickPicKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADCCBE641A9FB6C70013C5E8 /* One Trick Pic Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCCBE731A9FB6C80013C5E8 /* Build configuration list for PBXNativeTarget "One Trick Pic Widget" */;
+			buildPhases = (
+				ADCCBE611A9FB6C70013C5E8 /* Sources */,
+				ADCCBE621A9FB6C70013C5E8 /* Frameworks */,
+				ADCCBE631A9FB6C70013C5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Trick Pic Widget";
+			productName = "One Trick Pic Widget";
+			productReference = ADCCBE651A9FB6C70013C5E8 /* One Trick Pic Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +397,23 @@
 				TargetAttributes = {
 					AD3AFDBC1A9F7DC800C387B7 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8DXC3N7E7P;
 					};
 					AD3AFDD11A9F7DC900C387B7 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = AD3AFDBC1A9F7DC800C387B7;
+					};
+					AD7E294D1A9FBE6D00D691D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8DXC3N7E7P;
+					};
+					AD7E29571A9FBE6D00D691D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AD3AFDBC1A9F7DC800C387B7;
+					};
+					ADCCBE641A9FB6C70013C5E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8DXC3N7E7P;
 					};
 				};
 			};
@@ -186,6 +432,9 @@
 			targets = (
 				AD3AFDBC1A9F7DC800C387B7 /* One Trick Pic */,
 				AD3AFDD11A9F7DC900C387B7 /* One Trick PicTests */,
+				ADCCBE641A9FB6C70013C5E8 /* One Trick Pic Widget */,
+				AD7E294D1A9FBE6D00D691D5 /* OneTrickPicKit */,
+				AD7E29571A9FBE6D00D691D5 /* OneTrickPicKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +457,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7E294C1A9FBE6D00D691D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E29561A9FBE6D00D691D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCCBE631A9FB6C70013C5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCCBE6F1A9FB6C70013C5E8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,7 +488,6 @@
 			files = (
 				AD3AFDC51A9F7DC800C387B7 /* OTPViewController.swift in Sources */,
 				AD3AFDC31A9F7DC800C387B7 /* AppDelegate.swift in Sources */,
-				AD3AFDE31A9F7E4000C387B7 /* OTPImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +499,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD7E29491A9FBE6D00D691D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E29701A9FC17500D691D5 /* OTPPhotosManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7E29541A9FBE6D00D691D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7E29621A9FBE6D00D691D5 /* OneTrickPicKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCCBE611A9FB6C70013C5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCCBE6D1A9FB6C70013C5E8 /* OTPTodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +530,26 @@
 			isa = PBXTargetDependency;
 			target = AD3AFDBC1A9F7DC800C387B7 /* One Trick Pic */;
 			targetProxy = AD3AFDD31A9F7DC900C387B7 /* PBXContainerItemProxy */;
+		};
+		AD7E295B1A9FBE6D00D691D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7E294D1A9FBE6D00D691D5 /* OneTrickPicKit */;
+			targetProxy = AD7E295A1A9FBE6D00D691D5 /* PBXContainerItemProxy */;
+		};
+		AD7E295D1A9FBE6D00D691D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3AFDBC1A9F7DC800C387B7 /* One Trick Pic */;
+			targetProxy = AD7E295C1A9FBE6D00D691D5 /* PBXContainerItemProxy */;
+		};
+		AD7E29641A9FBE6D00D691D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7E294D1A9FBE6D00D691D5 /* OneTrickPicKit */;
+			targetProxy = AD7E29631A9FBE6D00D691D5 /* PBXContainerItemProxy */;
+		};
+		ADCCBE711A9FB6C70013C5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCCBE641A9FB6C70013C5E8 /* One Trick Pic Widget */;
+			targetProxy = ADCCBE701A9FB6C70013C5E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -342,6 +656,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "One Trick Pic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +668,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "One Trick Pic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +710,108 @@
 			};
 			name = Release;
 		};
+		AD7E29671A9FBE6D00D691D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneTrickPicKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD7E29681A9FBE6D00D691D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OneTrickPicKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD7E29691A9FBE6D00D691D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneTrickPicKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Trick Pic.app/One Trick Pic";
+			};
+			name = Debug;
+		};
+		AD7E296A1A9FBE6D00D691D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OneTrickPicKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Trick Pic.app/One Trick Pic";
+			};
+			name = Release;
+		};
+		ADCCBE741A9FB6C80013C5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "One Trick Pic Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADCCBE751A9FB6C80013C5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "One Trick Pic Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +831,7 @@
 				AD3AFDDE1A9F7DC900C387B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD3AFDDF1A9F7DC900C387B7 /* Build configuration list for PBXNativeTarget "One Trick PicTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +840,32 @@
 				AD3AFDE11A9F7DC900C387B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7E296B1A9FBE6D00D691D5 /* Build configuration list for PBXNativeTarget "OneTrickPicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7E29671A9FBE6D00D691D5 /* Debug */,
+				AD7E29681A9FBE6D00D691D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7E296D1A9FBE6D00D691D5 /* Build configuration list for PBXNativeTarget "OneTrickPicKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7E29691A9FBE6D00D691D5 /* Debug */,
+				AD7E296A1A9FBE6D00D691D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADCCBE731A9FB6C80013C5E8 /* Build configuration list for PBXNativeTarget "One Trick Pic Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCCBE741A9FB6C80013C5E8 /* Debug */,
+				ADCCBE751A9FB6C80013C5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

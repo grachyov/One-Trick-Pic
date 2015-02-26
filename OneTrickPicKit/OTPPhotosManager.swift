@@ -1,17 +1,21 @@
 //
-//  OTPImageManager.swift
+//  OTPPhotosManager.swift
 //  One Trick Pic
 //
-//  Created by Ivan Grachev on 26/02/15.
+//  Created by Ivan Grachev on 27/02/15.
 //  Copyright (c) 2015 Ivan Grachev. All rights reserved.
 //
 
 import Foundation
 import Photos
 
-class OTPImageManager {
+public class OTPPhotosManager {
     
-    func copyAndDeleteLastImage() {
+    public init() {
+        
+    }
+    
+    public func copyAndDeleteLastImage() {
         let fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: true)]
         let fetchResults = PHAsset.fetchAssetsWithMediaType(PHAssetMediaType.Image, options: fetchOptions)
