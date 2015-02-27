@@ -19,6 +19,8 @@
 		AD7E29651A9FBE6D00D691D5 /* OneTrickPicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; };
 		AD7E29661A9FBE6D00D691D5 /* OneTrickPicKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD7E29701A9FC17500D691D5 /* OTPPhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E296F1A9FC17500D691D5 /* OTPPhotosManager.swift */; };
+		AD7E29711A9FC60600D691D5 /* OneTrickPicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7E294E1A9FBE6D00D691D5 /* OneTrickPicKit.framework */; };
+		AD7E29721A9FE92100D691D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3AFDC91A9F7DC800C387B7 /* Images.xcassets */; };
 		ADCCBE681A9FB6C70013C5E8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCCBE671A9FB6C70013C5E8 /* NotificationCenter.framework */; };
 		ADCCBE6D1A9FB6C70013C5E8 /* OTPTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCBE6C1A9FB6C70013C5E8 /* OTPTodayViewController.swift */; };
 		ADCCBE6F1A9FB6C70013C5E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCCBE6E1A9FB6C70013C5E8 /* MainInterface.storyboard */; };
@@ -148,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7E29711A9FC60600D691D5 /* OneTrickPicKit.framework in Frameworks */,
 				ADCCBE681A9FB6C70013C5E8 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCCBE6F1A9FB6C70013C5E8 /* MainInterface.storyboard in Resources */,
+				AD7E29721A9FE92100D691D5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,7 +717,7 @@
 		AD7E29671A9FBE6D00D691D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -737,7 +741,7 @@
 		AD7E29681A9FBE6D00D691D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

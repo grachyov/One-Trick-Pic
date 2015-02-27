@@ -8,19 +8,23 @@
 
 import UIKit
 import NotificationCenter
+import OneTrickPicKit
 
 class OTPTodayViewController: UIViewController, NCWidgetProviding {
+    
+    let imageManager = OTPPhotosManager()
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
         
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view from its nib.
+        println("widget view did load")
+        preferredContentSize.height = 70
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
         // Perform any setup necessary in order to update the view.
 
@@ -29,6 +33,15 @@ class OTPTodayViewController: UIViewController, NCWidgetProviding {
         // If there's an update, use NCUpdateResult.NewData
 
         completionHandler(NCUpdateResult.NewData)
+    }
+    
+    func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: UIEdgeInsets) -> UIEdgeInsets {
+        return UIEdgeInsetsZero
+    }
+    
+    @IBAction func copyAndDeleteButtonPressed(sender: AnyObject) {
+        println("copyAndDeleteButtonPressed")
+        imageManager.copyAndDeleteLastImage()
     }
     
 }
